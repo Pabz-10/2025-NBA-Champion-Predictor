@@ -11,6 +11,15 @@ clutch_stats = leaguedashteamclutch.LeagueDashTeamClutch(
     point_diff="5"
 )
 
+# convert data to a data frame
+clutch_stats_df = clutch_stats.get_data_frames()[0]
+clutch_stats_df.to_csv('clutch_stats.csv', index=False)
+
+
+
+
+
+
 
 
 '''

@@ -5,7 +5,7 @@ This program fetchs data from the nba api and saves it to a CSV file. The data i
 # Data Set & Algorithm  
 The data set I used in this program only took into account 2024 playoff data from clutch time which is defined as "the final five minutes of the fourth quarter or overtime when the score is within five points" by the NBA. My choice to use this particular data set was due to the fact that the level of play in the NBA only goes up as the playoffs progress and often times the game is won or lost during this clutch period. 
 
-With the data chosen, my next step was to devise an algorithim that could take this data and predict two teams to make it to the finals. To do this, my alogrithim took into account four key catagories:
+With the data chosen, my next step was to devise an algorithm that could take this data and predict two teams to make it to the finals. To do this, my alogrithim took into account four key catagories:
 - Effective Field Goal Percentage (eFG%): weighted at 40%
   
 - Defensive Rating per 100 possesions: weighted at 30%
@@ -24,7 +24,7 @@ Total Rebounds was weighted at 20% as while not as impactful as the previous two
 
 The final catagory weighted at 10% was turnover percentage, as teams with a lower TO% give up the ball less, and thus get more opportunities to score. 
 
-When running the program, the algorithim states that the 2025 NBA finals will be between the Denver Nuggets and the Milwaukee Bucks, with the 
+When running the program, the algorithm states that the 2025 NBA finals will be between the Denver Nuggets and the Milwaukee Bucks, with the 
 Nuggest coming out on top!
 
 # Features 

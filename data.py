@@ -14,11 +14,8 @@ clutch_stats = leaguedashteamclutch.LeagueDashTeamClutch(
 #create a df for the stats and save as csv file
 clutch_stats_df = clutch_stats.get_data_frames()[0]
 clutch_stats_df.to_csv('clutch_stats.csv', index=False)
-
-
 nba_data = pd.read_csv('clutch_stats.csv')
 nba_data.head()
-
 
 '''
 Algo for determining the champion will take 4 catagories into account
